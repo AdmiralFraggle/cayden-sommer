@@ -1,0 +1,230 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'Triplicate Group',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    actions={[
+      { text: 'Learn More', href: '#features' },
+      { text: "Let's Talk!", href: '#lets-talk', variant: 'primary' },
+    ]}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+  >
+    <Fragment slot="title"> Triplicate Group </Fragment>
+
+    <Fragment slot="subtitle"> We make technology work better for entrepreneurs and small businesses </Fragment>
+  </Hero>
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    tagline="What we're about"
+    subtitle="We're passionate about helping entrepreneurs, startups, and small business owners utilize technology in a way that actually solves problems instead of just adding to the already complex business and technology landscape."
+    items={[
+      {
+        title: 'Technology and Business Consulting',
+        icon: 'tabler:brand-tailwind',
+      },
+      {
+        title: 'Software Development',
+        icon: 'tabler:components',
+      },
+      {
+        title: 'Digital Marketing & Sales',
+        icon: 'tabler:list-check',
+      },
+      {
+        title: 'Website Development',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'DevOps Transformation',
+        icon: 'tabler:arrows-right-left',
+      },
+      {
+        title: 'Cloud & Self-Hosting',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Tech Support',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Training & Education',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'AI',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Automation',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Project Management, Agile, and LEAN Methodologies',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Zoho Implementations',
+        icon: 'tabler:bulb',
+      },
+    ]}
+  />
+
+  <!-- Content Widget (Cayden) *************** -->
+
+  <Content
+    isReversed
+    tagline="Who We Are"
+    items={[
+      {
+        title: 'Built on top of Astro 5.0',
+        description:
+          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+      },
+      {
+        title: 'Styled using Tailwind CSS',
+        description:
+          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+      },
+      {
+        title: 'Cross-browser compatibility',
+        description:
+          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Cayden Sommer</h3>
+      Gain a competitive advantage by incorporating industry leading practices
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget (Evan) *************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'DevOps',
+        description: `Directly involved with multiple DevOps transformations at the small business and enterprise level and has led efforts to establish CI/CD, automation, and cloud deployment processes.`,
+      },
+      {
+        title: 'Software Development',
+        description:
+          'Direct contributor to numerous software projects ranging from back end and full stack architectures to cloud and distributed systems and is familiar with multiple programming paradigms and languages.',
+      },
+      {
+        title: 'Cloud & Platform Engineering',
+        description:
+          'Experience in both public and hybrid on-premises infrastructure, Evan has also held platform engineering roles and helped create new platforms that reduce complex deployment and implementation times from days to hours.',
+      },
+      {
+        title: 'Training & Education',
+        description:
+          "Has trained both technical and non-technical people going through technology transitions and has been a Teaching Fellow for multiple cohorts in LaunchCode's web development program.",
+      },
+      {
+        title: 'IT Operations & Management',
+        description:
+          'Over a decade of experience in IT operations and management, including managing all technology for one of our previous family businesses, Harmon Vision Center.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Evan Harmon</h3>
+      A technologist and software engineer with experience in DevOps, web development, AI, cloud engineering, technical education,
+      and project management in industries including healthcare, finance, and logistics.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Features2
+    tagline="What We've Worked On"
+    id="projects"
+    items={[
+      {
+        title: 'Sommer Lawn & Landscape',
+        description:
+          'Founded by Cayden Sommer, Sommer Lawn & Landscape is a technology-driven full service lawn and landscape business built for scale and efficiency.',
+        // icon: 'flat-color-icons:shop',
+        href: 'https://sommerlawn.com',
+      },
+      {
+        title: 'H&M Holiday Lighting',
+        description: 'Founded by Cayden Sommer & Daniel Monahan...',
+        // icon: 'flat-color-icons:shop',
+        href: 'https://hmholidaylighting.com',
+      },
+      {
+        title: 'Yalla Window Cleaning',
+        description: 'Founded by Daniel Monahan...',
+        // icon: 'flat-color-icons:shop',
+        href: 'https://yallawindowcleaning.com',
+      },
+      {
+        title: 'KC Tech Support',
+        description: 'Coming soon...',
+        // icon: 'flat-color-icons:circuit',
+        href: 'https://kctechsupport.com',
+      },
+      {
+        title: 'Contraption Labs',
+        description: 'Coming soon...',
+        // icon: 'flat-color-icons:circuit',
+        href: 'https://contraptionlabs.com',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts title="Blog" />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    id="lets-talk"
+    actions={[
+      { text: 'Contact Us', href: '/contact', variant: 'primary' },
+      { text: 'Meet With Us', href: 'https://fantastical.app/evanharmon' },
+    ]}
+  >
+    <Fragment slot="title"> Let's Talk! </Fragment>
+  </CallToAction>
+</Layout>

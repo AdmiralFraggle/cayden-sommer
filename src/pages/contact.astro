@@ -1,0 +1,80 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Contact" title="Let's Talk!" />
+
+  <Features2
+    columns={3}
+    items={[
+      {
+        title: 'Call Us',
+        description: '(913) 535-0555',
+        icon: 'tabler:phone',
+        href: 'tel:913-535-0555',
+      },
+      {
+        title: 'Email Evan',
+        description: 'evan@triplicategroup.com',
+        icon: 'tabler:mail',
+        href: 'mailto:evan@triplicategroup.com',
+      },
+      {
+        title: 'Email Cayden',
+        description: 'cayden@triplicategroup.com',
+        icon: 'tabler:mail',
+        href: 'mailto:cayden@triplicategroup.com',
+      },
+      {
+        title: 'Meet With Evan',
+        description:
+          "I am based in Kansas City and available to meet over coffee. Feel free to put a meeting on my calendar and let's talk in person!",
+        icon: 'tabler:map-pin',
+        href: 'https://fantastical.app/evanharmon',
+      },
+    ]}
+  />
+
+  <Features2
+    tagline="Find Us"
+    title="Elsewhere"
+    columns={3}
+    items={[
+      {
+        title: "Evan's Website",
+        description: 'evanharmon.com',
+        href: 'https://evanharmon.com',
+      },
+      {
+        title: "Cayden's Website",
+        description: 'caydensommer.com',
+        href: 'https://caydensommer.com',
+      },
+      {
+        title: 'LinkedIn',
+        description: 'evanharmon1',
+        href: 'https://www.linkedin.com/in/evanharmon1',
+        icon: 'tabler:brand-linkedin',
+      },
+      {
+        title: 'GitHub',
+        description: 'Triplicate-Group',
+        href: 'https://github.com/evanharmon1',
+        icon: 'tabler:brand-github',
+      },
+      {
+        title: 'Meetup',
+        description: 'KC Tech Enthusiasts',
+        href: 'https://meetup.com/kctechbookclub/',
+        icon: 'tabler:brand-meetup',
+      },
+    ]}
+  />
+</Layout>

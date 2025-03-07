@@ -1,0 +1,25 @@
+# Changes here will be overwritten by Copier
+_commit: v0.0.15
+_src_path: triplicate-stack
+ansible: false
+bunch_add: false
+ci_cd: github_actions
+code_templates: false
+data_folder: false
+design_files: false
+devcontainer: false
+git_init: true
+github_collaboration_templates: true
+github_release_init: true
+github_remote_create: true
+infra: []
+license: mit
+observability: []
+obsidian_project_add: false
+project_description: Cayden's personal site
+project_name: Cayden Sommer
+project_slug: cayden-sommer
+project_type: astrowind
+project_url: https://caydensommer.com
+run_task_bootstrap: false
+run_task_install: false
