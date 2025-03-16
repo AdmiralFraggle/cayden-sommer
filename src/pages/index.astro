@@ -15,7 +15,7 @@ import { getPermalink } from '~/utils/permalinks';
 import CaydenProfileImage from '~/assets/images/sitting-profile-copy-2.jpeg';
 
 const metadata = {
-  title: 'Triplicate Group',
+  title: 'Cayden Sommer',
   ignoreTitleTemplate: true,
 };
 ---
@@ -28,13 +28,13 @@ const metadata = {
         { text: 'Home', href: '#' },
         { text: 'About', href: '#about' },
         { text: 'Resume', href: '#resume' },
-        { text: 'Porfolio', href: '#porfolio' },
+        // { text: 'Porfolio', href: '#porfolio' },
         { text: 'Blog', href: 'blog' },
-        { text: 'Github', href: 'https://github.com/onwidget' },
+        // { text: 'Github', href: 'https://github.com/onwidget' },
       ]}
       actions={[
         {
-          text: 'Hire me',
+          text: 'Contact',
           href: '#',
         },
       ]}
@@ -49,10 +49,10 @@ const metadata = {
     id="hero"
     title="Cayden Sommer"
     tagline="Personal Site"
-    actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
+    actions={[{ variant: 'primary', text: 'Contact Me', href: getPermalink('/contact#form') }]}
   >
     <Fragment slot="subtitle">
-      Two words. Business Shark. <br />
+       <br />
       
     </Fragment>
   </Hero>
@@ -202,7 +202,7 @@ const metadata = {
 
   <!-- Content Widget **************** -->
 
-    <Content
+    <!-- <Content
     id="porfolio"
     title="Elevating visual narratives"
     subtitle="Embark on a design journey that surpasses pixels, entering a realm of imagination. Explore my portfolio, where passion and creativity converge to shape enthralling visual narratives."
@@ -239,11 +239,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent={true}
     items={[
@@ -277,11 +277,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent={true}
     items={[
@@ -314,11 +314,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Testimonials Widget *********** -->
 
-  <Testimonials
+  <!-- <Testimonials
     title="Client testimonials"
     subtitle="Discover what clients have to say about their experiences working with me."
     testimonials={[
@@ -377,7 +377,7 @@ const metadata = {
         },
       },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
@@ -397,8 +397,8 @@ const metadata = {
 
   <BlogLatestPosts
     id="blog"
-    title="Explore my insightful articles on my blog"
-    information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
+    title="Check out a few of my recent blog posts!"
+    information={``}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
