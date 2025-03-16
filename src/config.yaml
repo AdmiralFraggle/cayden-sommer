@@ -1,6 +1,6 @@
 site:
-  name: Triplicate Group
-  site: 'https://triplicategroup.com'
+  name: Cayden Sommer
+  site: 'https://caydensommer.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Triplicate Group
+    default: Cayden Sommer
     template: template
-  description: 'We make technology work better for small and medium-sized businesses'
+  description: 'Personal Site'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Triplicate Group
+    site_name: Cayden Sommer
     images:
       - url: '~/assets/images/default.png'
         width: 1200
