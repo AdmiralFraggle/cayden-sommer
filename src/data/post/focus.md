@@ -9,6 +9,7 @@ tags:
   - Disciple Making
   - DMM
   - Church Planting
+category: DMM
 metadata:
   canonical: https://evanharmon.com/focus
 ---

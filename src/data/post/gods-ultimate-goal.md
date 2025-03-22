@@ -9,6 +9,7 @@ tags:
   - Revelation
   - New Earth
   - Glory
+category: DMM
 metadata:
   canonical: https://evanharmon.com/gods-ultimate-goal
 ---
