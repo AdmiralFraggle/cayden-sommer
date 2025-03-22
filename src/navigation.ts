@@ -4,20 +4,13 @@ export const headerData = {
   links: [
     {
       text: 'About',
-      href: '/about',
+      href: '/',
     },
     {
       text: 'Contact',
       href: '/contact',
     },
-    {
-      text: 'Services',
-      href: '/services',
-    },
-    {
-      text: 'Meet',
-      href: 'https://fantastical.app/evanharmon',
-    },
+ 
     {
       text: 'Blog',
       href: '/blog',
