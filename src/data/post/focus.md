@@ -26,4 +26,4 @@ Focus is saying no to everything except the thing you want most. Paul was focuse
 
 ### Final Takeaway
 
-**IT IS ALL ONLY ABOUT GODS GLORY. AND IT ALWAYS HAS BEEN AND IT ALWAYS WILL BE.**
+**IT IS ALL ONLY ABOUT GODS GLORY. AND IT ALWAYS HAS BEEN. AND IT ALWAYS WILL BE.**
