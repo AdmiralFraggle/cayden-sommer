@@ -2,7 +2,9 @@
 publishDate: 2025-03-23T00:00:00Z
 title: Spiritual Practices
 excerpt: 9 formational spiritual practices dating back to the time of Jesus and far before. 
+
 image: https://media.istockphoto.com/id/1154073687/vector/hands.jpg?s=612x612&w=0&k=20&c=4yWK9TUhXKIFd498XDQJz2KKANK8r_1RQxKYiadieGg=
+
 tags:
   - Jesus
   - Focus
