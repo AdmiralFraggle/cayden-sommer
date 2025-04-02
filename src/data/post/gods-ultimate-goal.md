@@ -11,7 +11,7 @@ tags:
   - Glory
 category: DMM
 metadata:
-  canonical: https://evanharmon.com/gods-ultimate-goal
+  canonical: https://caydensommer.com/gods-ultimate-goal
 ---
 
 “and I heard a loud voice from the throne saying, “behold, the dwelling place of God is with man. He will dwell with them and they will be his people, and God himself will be with them as their God.” **Revelation 21:3**
