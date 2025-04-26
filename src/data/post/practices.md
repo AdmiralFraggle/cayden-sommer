@@ -13,7 +13,7 @@ tags:
   - Spiritual Practices
 category: Spiritual Formation
 metadata:
-  canonical: https://evanharmon.com/practices
+  canonical: https://caydensommer.com/practices
 ---
 
 

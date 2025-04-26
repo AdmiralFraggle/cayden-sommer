@@ -11,7 +11,7 @@ tags:
   - Church Planting
 category: DMM
 metadata:
-  canonical: https://caydensommer.com/focus
+  canonical: https://caydensommer.com/4fields
 ---
 
 
