@@ -652,3 +652,15 @@ saying, "The kingdom of the world has become the kingdom of our Lord and of his 
 - Ultimately, the Kingdom will culminate in God’s full reign, where the righteous will shine like the sun, and evil will be removed forever.
 
 In Short: The Kingdom of God is the reign of God in Christ — present, growing, and transforming now — but awaiting its full, glorious manifestation at the end of the age.
+
+## Some Of My Thoughts: 
+
+- Entrance into God’s Kingdom is total exit of the World’s.
+
+- Participation in God’s Kingdom is  characterized by complete liberation and freedom.
+
+- God’s Kingdom is so opposed to Satan’s that it sometimes seems confusing, backwards, unsensical, or even just wrong.
+
+- When you’re a part of it you are both God’s servant and child. Thous you have immense authority and power to carry out the King's will. 
+
+- Love, suffering, and trust are currencies of the Kingdom. The more we increase in them the more the Kingdom expands and grows. 

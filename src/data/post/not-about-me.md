@@ -1,0 +1,15 @@
+---
+publishDate: 2025-01-24T00:00:00Z
+title: It's Not About Me
+excerpt: Stop making it about yourslef. 
+image: https://media.istockphoto.com/id/1334985080/vector/sunset.jpg?s=612x612&w=0&k=20&c=Vg4MVYbTxFzhSeAd_yvAytDESkVPC5e48if6bwXj_Z0=
+tags:
+  - Jesus
+  - Prayer
+  - Grace
+category: Spiritual Formation
+metadata:
+  canonical: https://caydensommer.com/living-by-grace
+---
+
+It’s not about me. I can’t afford to forget that. When I think about my relationship to God I will often think about my actions. “how can I be better? How can I love him more? How can I be closer? How can I be more committed?” Not bad goals to have, however if all I am doing is dwelling on my own actions (how to be better) I am making about ME. It’s not about ME, it is only about God and it always has been and it always will be. I don’t need to analyze those things, dwell on them, or even think about them in order to worship my Lord. I just need to ask myself one question “where are you looking?” Am I looking at myself? (how I can serve him better, love him better, sin less, or otherwise?) or am I looking at my Lord (the glory and beauty of my God, Jesus.). Look at your Lord! That’s IT because it’s about HIM. Only him. We have nothing to bring to the table, therefore just look at him and worship. And heres the thing, the only way we can even serve him well, love him better, be closer to him, more committed, or anything is by seeing him. Why would you try to convince yourself to love him more when his spirit is living inside of you and you can just look at him and see his Glory. When you see it you will fall into love and obedience because of HIM not you. You FALL in love with him. The love will overflow and manifest submission, worship, self sacrifice, and all the good works you wanted. But they don’t come from your will. They come as a response to his glory and love. God is not shy about his Glory and love. He knows it redeems all. He knows it is the solution to everything that is wrong with ourselves and the whole World. So he gives it to us as a free gift. Take it! Drink! Enjoy his presence and glory and love. So that you will love him more and obey him better and give him everything. Look at Jesus, when you do everything else fades. When a Father’s child is in danger does he have to convince himself to save him? What if it requires self sacrifice to save him? NO! The Father will spring into action without thinking. Why? Because he loves his kid. No matter the cost he will love and protect his child. In the same way, when we love God it is a instinctual feeling that drives us to obedience and self sacrifice. It is not hard, there is no hesitation, no thinking, no deciding. we can’t help but spring into action because of our love for him. We don’t increase this love by our will either. We simply look at Jesus and our love for him will increase. Because it’s not about US or our will. it’s about HIM and his Glory. 
